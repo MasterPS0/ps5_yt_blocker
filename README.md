@@ -1,3 +1,18 @@
+# YT Update Blocker - PS5
+
+Permanently blocks YouTube app updates.
+
+## Installation
+1. Run `build.sh`
+2. Install `yt_blocker.pkg` 
+
+## Paths
+- DB: `/system_data/priv/mms/appinfo.db`
+- Backup: `/user/app/YTBLK0001/backup/`
+- Log: `/user/app/YTBLK0001/log.txt`
+- 
+
+
 # YT Update Blocker
 
 A simple GUI tool built with PyQt6 to block YouTube app updates on your PS5. This prevents accidental updates that could softlock the app if you connect to the internet unintentionally. The tool modifies the `appinfo.db` file to spoof the version and redirect update checks to a local address.
