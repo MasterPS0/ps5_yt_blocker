@@ -1,4 +1,4 @@
-# YT Update Blocker - PS5
+# PS5 PKG YT Update Blocker - PS5
 
 Permanently blocks YouTube app updates.
 
